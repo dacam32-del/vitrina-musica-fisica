@@ -55,4 +55,17 @@ $('g').innerHTML=!D.length?'<div class="empty">🎵 Pronto: primeras piezas de l
 const LB={id:'Código',tipo:'Tipo',titulo:'Título',artista_sello:'Artista / sello',formato:'Formato',catalogo:'N.º de catálogo',pistas:'Contenido',edicion:'Edición',anio:'Año',epoca:'Época',idioma:'Idioma',pais:'País',genero:'Género',tema:'Tema','genero/tema':'Género / tema',estado:'Estado',rareza:'Rareza',valor_internacional_usd:'Valor internacional (USD)',valor_internacional_clp:'Valor internacional (CLP)',venta_chile_clp:'Venta sugerida en Chile (CLP)',stock:'Unidades',notas:'Notas',dolar:'Dólar usado',fecha:'Fecha de registro'};
 function sh(id){const p=D.find(x=>x.id==id);$('mb').innerHTML=`<span class="x" onclick="$('m').classList.remove('on')">×</span><h2>${e(p.titulo)}</h2><i>${e(p.artista_sello)}</i><div class="ph">${p.imgs.map(i=>`<a href="${i}" target="_blank"><img src="${i}"></a>`).join('')}</div><table>${Object.entries(LB).filter(([k])=>p[k]!=null&&p[k]!=='').map(([k,l])=>`<tr><td>${l}</td><td>${e(k=='estado'?estTxt(p):p[k])}</td></tr>`).join('')}</table>`;$('m').classList.add('on')}
 $('m').onclick=ev=>{if(ev.target.id=='m')$('m').classList.remove('on')};document.onkeydown=ev=>{if(ev.key=='Escape')$('m').classList.remove('on')};fetch('data.json?'+Date.now()).then(x=>x.json()).then(d=>{D=d;for(const[id,fn]of Object.entries(F)){const v=[...new Set(D.map(fn).filter(Boolean))].sort();$(id).innerHTML='<option value="">Todos</option>'+v.map(x=>`<option>${e(x)}</option>`).join('')}$('s1').textContent=D.length;$('s2').textContent=D.reduce((t,p)=>t+(+p.stock||1),0);$('s3').textContent=fm(D.reduce((t,p)=>t+p.pmin,0))+' – '+fm(D.reduce((t,p)=>t+p.pmax,0));r()});
-</script></body></html>
+</script><!-- musica-vitrina --><div id="musica-credito" style="text-align:center;font-size:11px;opacity:.6;padding:8px 8px 70px">Música: "Bossa Antigua" de Kevin MacLeod (<a href="https://incompetech.com" style="color:inherit">incompetech.com</a>), licencia <a href="https://creativecommons.org/licenses/by/4.0/" style="color:inherit">CC BY 4.0</a></div>
+<audio id="bgm" src="audio/musica.mp3" loop preload="auto"></audio>
+<button id="bgm-btn" aria-label="Música" title="Música" style="position:fixed;left:16px;bottom:16px;z-index:9999;width:44px;height:44px;border-radius:50%;border:2px solid #e8c37a;background:#2b1d14;color:#e8c37a;font-size:20px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4);opacity:.9">🔇</button>
+<script>(function(){var a=document.getElementById('bgm'),b=document.getElementById('bgm-btn'),K='vitrina_musica_pausada';a.volume=0.35;
+function ui(){b.textContent=a.paused?'🔇':'🔊';}
+function go(){return a.play().then(ui).catch(function(){ui();});}
+function first(e){if(e&&e.target===b)return;rm();if(localStorage.getItem(K)!=='1'&&a.paused)go();}
+function rm(){['click','touchstart','keydown'].forEach(function(t){document.removeEventListener(t,first,true);});}
+b.addEventListener('click',function(){rm();if(a.paused){localStorage.removeItem(K);go();}else{a.pause();localStorage.setItem(K,'1');ui();}});
+a.addEventListener('play',ui);a.addEventListener('pause',ui);
+if(localStorage.getItem(K)!=='1'){a.play().then(ui).catch(function(){['click','touchstart','keydown'].forEach(function(t){document.addEventListener(t,first,true);});});}
+})();</script>
+<!-- /musica-vitrina -->
+</body></html>
