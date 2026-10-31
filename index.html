@@ -2,31 +2,33 @@
 <title>Vitrina Musical · Vinilos, CDs y Casetes</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f4ecd8;--paper:#fbf6ea;--ink:#2b2118;--bur:#6d1a2a;--grn:#1f3d2b;--gold:#b08d3c;--mut:#7a6a55}
-*{box-sizing:border-box}body{margin:0;background:var(--bg) radial-gradient(circle at 20% 0,#fffaf0 0,transparent 60%);color:var(--ink);font-family:Lora,Georgia,serif}
-header{background:linear-gradient(135deg,var(--grn),#14291d);color:#f4ecd8;padding:38px 20px 26px;text-align:center;border-bottom:6px double var(--gold)}
-h1{font-family:'Playfair Display',serif;font-size:2.6em;margin:0;letter-spacing:.5px}header p{margin:6px 0 0;font-style:italic;color:#e3d3a8}
-.stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:20px}.stat{border:1px solid var(--gold);padding:10px 18px;border-radius:4px;background:rgba(255,255,255,.06)}
-.stat b{display:block;font-family:'Playfair Display';font-size:1.4em;color:#f0d78c}.stat span{font-size:.8em;text-transform:uppercase;letter-spacing:1px}
-.filters{max-width:1200px;margin:20px auto;padding:16px;background:var(--paper);border:1px solid #d9c9a3;border-radius:6px;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
-.filters label{font-size:.75em;text-transform:uppercase;letter-spacing:1px;color:var(--bur);font-weight:600}
-select,input{width:100%;padding:7px;border:1px solid #cdb98b;background:#fffdf6;font-family:Lora;border-radius:3px;color:var(--ink)}
+:root{--bg:#0b0b0f;--paper:#16161d;--ink:#fff;--pk:#ff2d8a;--pk2:#e6007e;--cy:#29c5f6;--cy2:#1fb6e8;--mut:#b9bcc8;--sil:linear-gradient(135deg,#e6e6e6,#c0c0c0 40%,#8a8a8a)}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:Lora,Georgia,serif;background:var(--bg) repeating-radial-gradient(circle at 100% 0,transparent 0 22px,rgba(255,45,138,.10) 22px 26px,transparent 26px 48px,rgba(41,197,246,.10) 48px 52px) fixed}
+header{position:relative;overflow:hidden;background:repeating-radial-gradient(circle at 0 100%,transparent 0 18px,rgba(255,45,138,.35) 18px 22px,transparent 22px 40px,rgba(41,197,246,.35) 40px 44px),#0b0b0f;padding:38px 20px 26px;text-align:center;border-bottom:4px solid var(--pk)}
+header:after{content:"";position:absolute;inset:auto 0 -8px;height:4px;background:var(--cy)}
+.vinyl{width:90px;height:90px;margin:0 auto 12px;border-radius:50%;background:radial-gradient(circle,var(--pk) 0 14%,#fff 14% 16%,var(--cy) 16% 30%,#111 30% 31%,transparent 31%),repeating-radial-gradient(circle,#111 0 2px,#262630 2px 3px);box-shadow:0 0 0 3px #8a8a8a,0 0 24px rgba(255,45,138,.5);animation:sp 8s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+h1{font-family:'Playfair Display',serif;font-size:2.6em;margin:0;letter-spacing:.5px;color:#fff;text-shadow:3px 3px 0 var(--pk2),-2px -2px 0 var(--cy2)}header p{margin:6px 0 0;font-style:italic;color:#d8dbe6}
+.stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:20px}.stat{border:2px solid #c0c0c0;padding:10px 18px;border-radius:6px;background:rgba(11,11,15,.85)}
+.stat b{display:block;font-family:'Playfair Display';font-size:1.4em;color:var(--cy)}.stat span{font-size:.8em;text-transform:uppercase;letter-spacing:1px;color:#fff}
+.filters{max-width:1200px;margin:20px auto;padding:16px;background:var(--paper);border:1px solid #8a8a8a;border-top:3px solid var(--cy);border-radius:6px;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.filters label{font-size:.75em;text-transform:uppercase;letter-spacing:1px;color:var(--pk);font-weight:600}
+select,input{width:100%;padding:7px;border:1px solid #8a8a8a;background:#0b0b0f;font-family:Lora;border-radius:3px;color:#fff}select:focus,input:focus{outline:2px solid var(--cy)}
 #count{max-width:1200px;margin:0 auto;padding:0 16px;color:var(--mut);font-style:italic}
 .grid{max-width:1200px;margin:10px auto 40px;padding:0 16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
-.card{background:var(--paper);border-radius:2px 8px 8px 2px;box-shadow:4px 5px 0 #d6c49a,0 6px 16px rgba(60,40,20,.18);border-left:10px solid var(--bur);cursor:pointer;overflow:hidden;transition:transform .15s}
-.card:hover{transform:translateY(-4px) rotate(-.4deg)}.card img{width:100%;aspect-ratio:1/1;object-fit:cover;background:#e8dcc0;display:block}
-.noimg{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:var(--grn);color:#e3d3a8;font-family:'Playfair Display';font-size:3em}
-.cb{padding:12px}.cb .t{font-family:'Playfair Display';font-weight:800;font-size:1.05em;line-height:1.2}.cb .a{color:var(--mut);font-size:.85em;font-style:italic;margin:3px 0 8px}
-.tag{display:inline-block;font-size:.7em;padding:2px 7px;border-radius:10px;background:var(--grn);color:#f4ecd8;margin:0 3px 3px 0}.tag.r{background:var(--gold);color:#2b2118}
-.price{margin-top:8px;color:var(--bur);font-weight:600}.empty{grid-column:1/-1;text-align:center;padding:70px 20px;font-family:'Playfair Display';font-size:1.6em;color:var(--grn)}
-.modal{position:fixed;inset:0;background:rgba(20,15,10,.75);display:none;align-items:center;justify-content:center;padding:16px;z-index:9}.modal.on{display:flex}
-.box{background:var(--paper);max-width:900px;width:100%;max-height:92vh;overflow:auto;border-radius:6px;border-top:8px solid var(--bur);padding:22px;position:relative}
-.box h2{font-family:'Playfair Display';margin:0 0 4px;color:var(--bur)}.x{position:absolute;right:14px;top:8px;font-size:1.8em;cursor:pointer;color:var(--grn)}
-.ph{display:flex;gap:8px;overflow-x:auto;margin:12px 0}.ph img{height:280px;border-radius:4px;border:1px solid #d9c9a3}
-table{width:100%;border-collapse:collapse;font-size:.92em}td{padding:6px;border-bottom:1px dotted #cdb98b;vertical-align:top}td:first-child{color:var(--grn);font-weight:600;width:38%}
-footer{text-align:center;padding:20px;color:var(--mut);font-size:.85em;border-top:1px solid #d9c9a3}
+.card{background:var(--paper);border-radius:8px;box-shadow:0 0 0 2px #8a8a8a,0 8px 20px rgba(0,0,0,.6);border-top:6px solid var(--pk);cursor:pointer;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-4px);box-shadow:0 0 0 2px var(--cy),0 0 22px rgba(41,197,246,.45)}.card img{width:100%;aspect-ratio:1/1;object-fit:cover;background:#222;display:block}
+.noimg{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:#111;color:var(--pk);font-family:'Playfair Display';font-size:3em}
+.cb{padding:12px}.cb .t{font-family:'Playfair Display';font-weight:800;font-size:1.05em;line-height:1.2;color:#fff}.cb .a{color:var(--mut);font-size:.85em;font-style:italic;margin:3px 0 8px}
+.tag{display:inline-block;font-size:.7em;padding:2px 7px;border-radius:10px;background:var(--cy);color:#0b0b0f;font-weight:600;margin:0 3px 3px 0}.tag.r{background:var(--sil);color:#0b0b0f}
+.price{margin-top:8px;color:var(--pk);font-weight:600}.empty{grid-column:1/-1;text-align:center;padding:70px 20px;font-family:'Playfair Display';font-size:1.6em;color:var(--cy)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.82);display:none;align-items:center;justify-content:center;padding:16px;z-index:9}.modal.on{display:flex}
+.box{background:var(--paper);max-width:900px;width:100%;max-height:92vh;overflow:auto;border-radius:6px;border-top:8px solid var(--pk);box-shadow:0 0 0 2px #c0c0c0;padding:22px;position:relative}
+.box h2{font-family:'Playfair Display';margin:0 0 4px;color:var(--pk)}.x{position:absolute;right:14px;top:8px;font-size:1.8em;cursor:pointer;color:var(--cy)}
+.ph{display:flex;gap:8px;overflow-x:auto;margin:12px 0}.ph img{height:280px;border-radius:4px;border:2px solid #8a8a8a}
+table{width:100%;border-collapse:collapse;font-size:.92em}td{padding:6px;border-bottom:1px dotted #555;vertical-align:top}td:first-child{color:var(--cy);font-weight:600;width:38%}
+footer{text-align:center;padding:20px;color:var(--mut);font-size:.85em;border-top:3px solid;border-image:linear-gradient(90deg,var(--pk),#c0c0c0,var(--cy)) 1}
 </style></head><body>
-<header><h1>Vitrina Musical</h1><p>Vinilos, CDs, casetes y más · valores estimados en Chile e internacionales</p>
+<header><div class="vinyl"></div><h1>Vitrina Musical</h1><p>Vinilos, CDs, casetes y más · valores estimados en Chile e internacionales</p>
 <div class="stats"><div class="stat"><b id="s1">0</b><span>Fichas</span></div><div class="stat"><b id="s2">0</b><span>Unidades</span></div><div class="stat"><b id="s3">$0</b><span>Valor total Chile (CLP)</span></div></div></header>
 <div class="filters">
 <div><label>Buscar</label><input id="q" placeholder="Título, artista, sello, tema…"></div>
