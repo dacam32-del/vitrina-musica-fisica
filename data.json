@@ -62,5 +62,69 @@
   "imgs": [
    "img/MUS-002.jpg"
   ]
+ },
+ {
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto",
+  "pais": "España",
+  "genero": "New Age / Biomúsica",
+  "rareza": "Poco común (nicho)",
+  "valor_internacional_usd": "US$5 – US$15 (estimado)",
+  "venta_chile_clp": "$5.000 – $12.000 (estimado)",
+  "pmin": 5000,
+  "pmax": 12000,
+  "stock": 1,
+  "ep": "1980–1999",
+  "fecha": "2026-11-03",
+  "id": "MUS-003",
+  "titulo": "A Trip to the Cosmic Sea / Viaje en el Mar Cósmico",
+  "artista_sello": "Lorenzo López / The Bioinformation Study (Ernest Hanquet)",
+  "edicion": "Edición española original de 1990",
+  "anio": "1990",
+  "y": 1990,
+  "catalogo": "NAB-104-MC · D.L. V-1910-1990",
+  "pistas": "Biomúsica con ondas alfa subliminales («Biological biomusic of great therapeutic value»)",
+  "estado": {
+   "escala": "Bueno",
+   "nota": 7,
+   "detalle": "Estuche con rayas leves de uso; inserto completo y limpio; casete con etiqueta impresa en buen estado. Reproducción de la cinta no verificada"
+  },
+  "notas": "Sello valenciano de biomúsica «terapéutica» de los años 90, dirigido por Ernest Hanquet. Coleccionabilidad baja-media, de nicho (new age español, curiosidad kitsch). Precio estimado: hay pocas referencias de venta.",
+  "imgs": [
+   "img/MUS-003.jpg",
+   "img/MUS-003-2.jpg"
+  ]
+ },
+ {
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto",
+  "pais": "España",
+  "genero": "New Age / Biomúsica",
+  "rareza": "Poco común (nicho)",
+  "valor_internacional_usd": "US$5 – US$15 (estimado)",
+  "venta_chile_clp": "$5.000 – $12.000 (estimado)",
+  "pmin": 5000,
+  "pmax": 12000,
+  "stock": 1,
+  "ep": "1980–1999",
+  "fecha": "2026-11-03",
+  "id": "MUS-004",
+  "titulo": "Intellectual Sensibilities / Sensibilidades Intelectuales",
+  "artista_sello": "The Bioinformation Study (Ernest Hanquet)",
+  "edicion": "Edición española original de 1991, portada con Einstein",
+  "anio": "1991",
+  "y": 1991,
+  "catalogo": "NAB-101 · D.L. V-2597-1991",
+  "pistas": "New Age Biomusic con ondas alfa y mensajes subliminales",
+  "estado": {
+   "escala": "Bueno",
+   "nota": 7,
+   "detalle": "Estuche con rayas leves y reflejos de uso; inserto completo; casete con etiqueta impresa en buen estado. Reproducción de la cinta no verificada"
+  },
+  "notas": "La portada ilustrada de Einstein con un átomo es lo más llamativo. Coleccionabilidad baja-media, de nicho. Precio estimado: hay pocas referencias de venta.",
+  "imgs": [
+   "img/MUS-004.jpg",
+   "img/MUS-004-2.jpg"
+  ]
  }
 ]
