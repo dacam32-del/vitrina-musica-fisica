@@ -1,3 +1,66 @@
 [
- {"id":"MUS-001","tipo":"CD (box set)","titulo":"#1 Hits of the 50s and 60s","artista_sello":"Varios artistas (The Platters, The Drifters, The Troggs, Donovan, The Crystals y otros) / Madacy Entertainment","edicion":"Box de 3 CDs en lata metálica","formato":"3 × CD","anio":"c. 2005–2009 (aprox.)","ep":"2000 en adelante","y":2007,"pais":"Canadá","catalogo":"TCJ2 52520 / TCJ2 52521","genero":"Oldies / Rock & roll / Pop 50s–60s","pistas":"36 temas, de «Rock Around the Clock» a «Dizzy»","estado":{"escala":"Muy bueno","nota":8,"detalle":"Discos nunca sacados de sus cajas, como nuevos; la lata tiene rayas y marcas de uso"},"rareza":"Común","valor_internacional_usd":"US$10 – US$12","venta_chile_clp":"$12.000 – $15.000","pmin":12000,"pmax":15000,"stock":1,"notas":"La contratapa dice «New stereo recordings by the original artists»: son regrabaciones posteriores, no las grabaciones originales que fueron #1. Coleccionabilidad baja; ideal como regalo o pieza decorativa. Con la lata impecable podría llegar a ~$18.000 CLP.","fecha":"2026-10-31","imgs":["img/MUS-001.jpg","img/MUS-001-2.jpg","img/MUS-001-3.jpg","img/MUS-001-4.jpg"]}
+ {
+  "id": "MUS-001",
+  "tipo": "CD (box set)",
+  "titulo": "#1 Hits of the 50s and 60s",
+  "artista_sello": "Varios artistas (The Platters, The Drifters, The Troggs, Donovan, The Crystals y otros) / Madacy Entertainment",
+  "edicion": "Box de 3 CDs en lata metálica",
+  "formato": "3 × CD",
+  "anio": "c. 2005–2009 (aprox.)",
+  "ep": "2000 en adelante",
+  "y": 2007,
+  "pais": "Canadá",
+  "catalogo": "TCJ2 52520 / TCJ2 52521",
+  "genero": "Oldies / Rock & roll / Pop 50s–60s",
+  "pistas": "36 temas, de «Rock Around the Clock» a «Dizzy»",
+  "estado": {
+   "escala": "Muy bueno",
+   "nota": 8,
+   "detalle": "Discos nunca sacados de sus cajas, como nuevos; la lata tiene rayas y marcas de uso"
+  },
+  "rareza": "Común",
+  "valor_internacional_usd": "US$10 – US$12",
+  "venta_chile_clp": "$12.000 – $15.000",
+  "pmin": 12000,
+  "pmax": 15000,
+  "stock": 1,
+  "notas": "La contratapa dice «New stereo recordings by the original artists»: son regrabaciones posteriores, no las grabaciones originales que fueron #1. Coleccionabilidad baja; ideal como regalo o pieza decorativa. Con la lata impecable podría llegar a ~$18.000 CLP.",
+  "fecha": "2026-10-31",
+  "imgs": [
+   "img/MUS-001.jpg",
+   "img/MUS-001-2.jpg",
+   "img/MUS-001-3.jpg",
+   "img/MUS-001-4.jpg"
+  ]
+ },
+ {
+  "id": "MUS-002",
+  "tipo": "Vinilo (LP)",
+  "titulo": "Bye Bye Birdie — Original Broadway Cast",
+  "artista_sello": "Chita Rivera, Dick Van Dyke, Paul Lynde, Kay Medford / Columbia Masterworks",
+  "edicion": "Stereo KOS 2025 (versión mono: OL 5510). Prensaje exacto por confirmar (falta foto de la etiqueta)",
+  "formato": "LP 12\" (33⅓ rpm)",
+  "anio": "1960 (lanzamiento original)",
+  "ep": "1950–1979",
+  "y": 1960,
+  "pais": "Estados Unidos",
+  "catalogo": "KOS 2025 (stereo) / OL 5510 (mono)",
+  "genero": "Musical / Cast album de Broadway",
+  "pistas": "Música de Charles Strouse, letras de Lee Adams; producido por Goddard Lieberson",
+  "estado": {
+   "escala": "Por confirmar",
+   "detalle": "Solo se ha visto la portada; vinilo y contratapa sin revisar"
+  },
+  "rareza": "Poco común",
+  "valor_internacional_usd": "US$10 – US$25 (más si es stereo 6-eye de 1960 en VG+/NM)",
+  "venta_chile_clp": "$10.000 – $20.000",
+  "pmin": 10000,
+  "pmax": 20000,
+  "stock": 1,
+  "notas": "Coleccionabilidad media-baja: cast album popular, atractivo por el debut de Dick Van Dyke y Chita Rivera en Broadway. Un prensaje stereo original de 1960 con etiqueta 6-eye vale más que las reediciones posteriores.",
+  "fecha": "2026-11-03",
+  "imgs": [
+   "img/MUS-002.jpg"
+  ]
+ }
 ]
