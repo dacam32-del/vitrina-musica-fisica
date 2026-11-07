@@ -158,5 +158,61 @@
    "img/MUS-005.jpg",
    "img/MUS-005-2.jpg"
   ]
+ },
+ {
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto",
+  "pais": "España",
+  "ep": "1980–1999",
+  "genero": "New Age / Biomúsica",
+  "rareza": "Poco común (nicho)",
+  "valor_internacional_usd": "US$5 – US$15 (estimación)",
+  "venta_chile_clp": "$5.000 – $12.000 (estimación)",
+  "pmin": 5000,
+  "pmax": 12000,
+  "stock": 1,
+  "anio": "1993",
+  "y": 1993,
+  "fecha": "2026-11-07",
+  "artista_sello": "Manuel Cañete Osana / The Bioinformation Study (Ernest Hanquet)",
+  "edicion": "Edición española, © 1993 Ernest Hanquet / The Bioinformation Study",
+  "id": "MUS-006",
+  "titulo": "Celestial Hope / Esperanza Celestial",
+  "catalogo": "NAB-147 · D.L. V-2307-1993 (leído en la etiqueta del casete, cara B)",
+  "pistas": "«New Age Biomusic». La portada anuncia «subliminal alfa soundwave and special frequencies» (publicidad impresa de la época, sin eficacia comprobada)",
+  "estado": {
+   "escala": "Bueno",
+   "nota": 7,
+   "detalle": "Estuche con rayas de uso; inserto presente con desgaste leve; etiqueta del casete legible. Reproducción de la cinta no probada"
+  },
+  "notas": "Precio estimado con alta incertidumbre: no se encontraron ventas ni avisos de este título (ni en Chile ni en el extranjero). Base: misma serie y rango que MUS-003 a MUS-005. Fotos editadas: mano cambiada a guante negro y fondo difuminado; el casete conserva los píxeles originales."
+ },
+ {
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto",
+  "pais": "España",
+  "ep": "1980–1999",
+  "genero": "New Age / Biomúsica",
+  "rareza": "Poco común (nicho)",
+  "valor_internacional_usd": "US$5 – US$15 (estimación)",
+  "venta_chile_clp": "$5.000 – $12.000 (estimación)",
+  "pmin": 5000,
+  "pmax": 12000,
+  "stock": 1,
+  "anio": "1993",
+  "y": 1993,
+  "fecha": "2026-11-07",
+  "artista_sello": "Manuel Cañete Osana / The Bioinformation Study (Ernest Hanquet)",
+  "edicion": "Edición española, © 1993 Ernest Hanquet / The Bioinformation Study",
+  "id": "MUS-007",
+  "titulo": "The Magic Silence / El Silencio Mágico",
+  "catalogo": "NAB-148-MC · D.L. V-2306-1993 (leído en la etiqueta del casete, cara A)",
+  "pistas": "Compuesto por Manuel Cañete. La portada anuncia «subliminal alfa soundwave and special frequencies» (publicidad impresa de la época, sin eficacia comprobada)",
+  "estado": {
+   "escala": "Aceptable",
+   "nota": 6,
+   "detalle": "Tapa del estuche con varias marcas lineales diagonales (rayas profundas o posible fisura del plástico; no se puede confirmar por foto) y desgaste general; inserto presente, sin pliegues evidentes en las fotos. Reproducción de la cinta no probada"
+  },
+  "notas": "Precio estimado con alta incertidumbre: no se encontraron ventas ni avisos de este título (ni en Chile ni en el extranjero). Base: misma serie y rango que MUS-003 a MUS-005. Fotos editadas: mano cambiada a guante negro y fondo difuminado; el casete conserva los píxeles originales."
  }
 ]
