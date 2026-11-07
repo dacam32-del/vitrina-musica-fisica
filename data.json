@@ -126,5 +126,37 @@
    "img/MUS-004.jpg",
    "img/MUS-004-2.jpg"
   ]
+ },
+ {
+  "id": "MUS-005",
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto",
+  "titulo": "Anti-Depression Melodies / Melodías Anti-Depresivas",
+  "artista_sello": "Jon Luna / The Bioinformation Study (Ernest Hanquet)",
+  "edicion": "Edición española, © 1993 Ernest Hanquet / The Bioinformation Study",
+  "anio": "1993",
+  "y": 1993,
+  "ep": "1980–1999",
+  "pais": "España",
+  "catalogo": "NAB-150-MC · D.L. V-2433-1993 (leído en la etiqueta del casete, cara B)",
+  "genero": "New Age / Biomúsica",
+  "pistas": "Compuesto por Jon Luna. La portada anuncia «Biomusic with the subliminal alfa soundwave and special frequencies» (texto publicitario impreso del sello, sin respaldo verificable)",
+  "estado": {
+   "escala": "Bueno",
+   "nota": 7,
+   "detalle": "Estuche con rayas de uso; inserto presente; etiqueta del casete legible. Reproducción de la cinta no probada"
+  },
+  "rareza": "Poco común (nicho)",
+  "valor_internacional_usd": "US$5 – US$15 (estimación)",
+  "venta_chile_clp": "$5.000 – $12.000 (estimación)",
+  "pmin": 5000,
+  "pmax": 12000,
+  "stock": 1,
+  "notas": "Precio estimado: no se encontraron ventas ni avisos de este título en Chile ni en el extranjero. Solo hay anuncios de CDs del mismo sello en todocoleccion (otro formato, desde menos de 1 € hasta precios pedidos muy altos), que no sirven como comparable directo. Fotos editadas: mano reemplazada por guante negro y fondo difuminado; el casete conserva los píxeles originales.",
+  "fecha": "2026-11-07",
+  "imgs": [
+   "img/MUS-005.jpg",
+   "img/MUS-005-2.jpg"
+  ]
  }
 ]
