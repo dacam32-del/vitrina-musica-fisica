@@ -353,5 +353,37 @@
    "img/MUS-011.jpg",
    "img/MUS-011-2.jpg"
   ]
+ },
+ {
+  "id": "MUS-012",
+  "tipo": "Casete",
+  "formato": "Casete (MC) con estuche e inserto (J-card)",
+  "titulo": "Recordar es Vivir – Varios Intérpretes",
+  "artista_sello": "Varios (Agustín Lara, Juan Arvizu, María Luisa Landín, Dr. Alfonso Ortiz Tirado, Lupita Palomera, Toña la Negra, Fernando Fernández, Pedro Vargas) / Budget Line – RCA / BMG",
+  "edicion": "Budget Line. ℗ 1989 Bertelsmann de México S.A. de C.V. Fabricado y distribuido por BMG Music, New York. Marca RCA. Made in U.S.A. / Printed in U.S.A.",
+  "anio": "1989",
+  "y": 1989,
+  "ep": "1980–1999",
+  "pais": "Estados Unidos (℗ México)",
+  "catalogo": "2118-4-RL · código de barras 0 7863-52118-4 9",
+  "genero": "Classic / Ballad (boleros)",
+  "pistas": "Lado A: 1. Palabras de mujer (Agustín Lara) – Agustín Lara; 2. Verde mar (Conforti/Di Sarli) – Juan Arvizu; 3. Amor perdido (Pedro Flores) – María Luisa Landín; 4. Altiva (María Grever) – Dr. Alfonso Ortiz Tirado. Lado B: 1. Mis ojos me denuncian (Acuña/Valdez Leal) – Lupita Palomera; 2. Cada noche un amor (Agustín Lara) – Toña la Negra; 3. Hipócrita callejera (Carlos Crespo) – Fernando Fernández; 4. Santa (Agustín Lara) – Pedro Vargas.",
+  "estado": {
+   "escala": "Aceptable",
+   "nota": 6,
+   "detalle": "Usado. El inserto (J-card) y el estuche muestran desgaste y marcas de uso; la carcasa del casete se ve en buen estado. Reproducción de la cinta no probada."
+  },
+  "rareza": "Común (línea Budget)",
+  "valor_internacional_usd": "US$3 – US$8 (estimación)",
+  "venta_chile_clp": "$3.000 – $8.000 (estimación)",
+  "pmin": 3000,
+  "pmax": 8000,
+  "stock": 1,
+  "notas": "Precio estimado con alta incertidumbre: no se encontraron ventas ni avisos de este título (catálogo 2118-4-RL) en Chile ni en el extranjero. Discogs no tiene ficha para este código de barras. Hay otras compilaciones con el mismo título (por ejemplo un CD RCA/Sonolux de 1996 y un digital RCA de 1989 con más pistas), que no son este casete Budget Line y no se usan como comparables. Base: casete usado de línea económica de boleros, con desgaste en el inserto y el estuche.",
+  "fecha": "2026-11-13",
+  "imgs": [
+   "img/MUS-012.jpg",
+   "img/MUS-012-2.jpg"
+  ]
  }
 ]
